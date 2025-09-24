@@ -1,0 +1,144 @@
+{
+   "intro": "I am passionate about continuous learning and exploring emerging technologies. Below are some of the key languages, frameworks, tools, and platforms that I have worked with:",
+    "skills": [    {
+            "title" : "Languages & Core Web",
+            "items": [
+                {
+                    "icon": "images/skills/icon/js.webp",
+                    "title": "JavaScript (ES6+)"
+                },
+                {
+                    "icon": "images/skills/icon/html.webp",
+                    "title": "HTML5"    
+                }, 
+                {
+                    "icon": "images/skills/icon/css3.png",
+                    "title": "CSS3"
+                }
+            ]
+    },
+        {
+            "title": "Frameworks & Libraries",
+            "items" : [
+                {
+                    "icon": "images/skills/icon/react.png",
+                    "title": "React.js"
+                },
+                {
+                    "icon": "images/skills/icon/redux.png",
+                    "title": "Redux "
+                }, 
+                {
+                    "icon": "images/skills/icon/router.png",
+                    "title": "React Router"
+                },
+               
+                {
+                    "icon": "images/skills/icon/mui.png",
+                    "title": "Material UI"
+                },
+                {
+                    "icon": "images/skills/icon/coreui.png",
+                    "title": "CoreUI"
+                },
+                {
+                    "icon": "images/skills/icon/bootstrap.png",
+                    "title": "Bootstrap"
+                },
+                {
+                    "icon": "images/skills/icon/tailwindd.png",
+                    "title": "Tailwind CSS"
+                },
+                 {
+                    "icon": "images/skills/icon/sass.webp",
+                    "title": "SASS"
+                }  
+            ]
+        },
+        {
+            "title" : "API's & Data Handling",
+            "items": [
+                {
+                    "icon": "images/skills/icon/api.png",
+                    "title": "REST API"
+                },
+                {
+                    "icon": "images/skills/icon/axios.png",
+                    "title": "Axios"
+                }, 
+                {
+                    "icon": "images/skills/icon/api.png",
+                    "title": "Fetch API"
+                },
+                {
+                    "icon": "images/skills/icon/json1.png",
+                    "title": "JSON"
+                }
+            ]
+    },
+        {
+            "title" : "Testing, Build & Quality",
+            "items": [
+                {
+                    "icon": "images/skills/icon/jest.png",
+                    "title": "Jest"
+                },
+              
+                {
+                    "icon": "images/skills/icon/testing-library.png",
+                    "title": "React Testing Library"
+                }, {
+                    "icon": "images/skills/icon/eslint.png",
+                    "title": "ESLint"
+                },
+                 {
+                    "icon": "images/skills/icon/npm.png",
+                    "title": "NPM"
+                },
+                {
+                    "icon": "images/skills/icon/yarnm.png",
+                    "title": "Yarn"
+                }, 
+              
+                            {
+                    "icon": "images/skills/icon/webpack.png",
+                    "title": "Webpack"
+                },
+                 {
+                    "icon": "images/skills/icon/vite.png",
+                    "title": "Vite"
+                }
+            ]
+    },
+     {
+            "title" : "Tools, Platforms & Collaboration",
+            "items": [
+               
+                 {
+                    "icon": "images/skills/icon/git.png",
+                    "title": "Git"
+                },
+                 {
+                    "icon": "images/skills/icon/visual_studio_code.png",
+                    "title": "Visual Studio Code"
+                },
+                 {
+                    "icon": "images/skills/icon/vercel.png",
+                    "title": "Vercel"
+                },
+                 {
+                    "icon": "images/skills/icon/netlify.webp",
+                    "title": "Netlify"
+                },
+                  {
+                    "icon": "images/skills/icon/figma.webp",
+                    "title": "Figma"
+                },
+                  {
+                    "icon": "images/skills/icon/postman.webp",
+                    "title": "PostMan"
+                }
+                 
+            ]
+    }
+]}

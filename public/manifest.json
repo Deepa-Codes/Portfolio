@@ -1,0 +1,15 @@
+{
+  "short_name": "Deepa K",
+  "name": "Deepa K - Portfolio",
+  "icons": [
+    {
+      "src": "images/logo1.png",
+      "type": "image/png",
+      "sizes": "425x225"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

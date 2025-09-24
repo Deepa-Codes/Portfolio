@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/in/deepa-k-a56a74115/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Deepa-codes"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:deepayasodha1@gmail.com"
+        }
+    ]
+}

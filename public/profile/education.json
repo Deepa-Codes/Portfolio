@@ -1,0 +1,31 @@
+{
+    "education":[
+         {
+            "title": "Jun 2013 - Jun 2016",
+            "cardTitle": " Bachelor of Science",
+            "cardSubtitle":" EMG Yadava College , Madurai",
+            "cardDetailedText": "CGPA - 7.8",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Mar 2012 - Mar 2013",
+            "cardTitle": "Higher Secondary (HSC)",
+            "cardSubtitle":"OCPM Girls Higher Secondary School, Madurai",
+            "cardDetailedText": "Marks - 65.5%",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Mar 2010 - Mar 2011",
+            "cardTitle": "Secondary School (SSLC)",
+            "cardSubtitle":"OCPM Girls Higher Secondary School, Madurai",
+            "cardDetailedText": "Marks - 77.6%",
+             "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            } 
+        }
+    ]
+}
