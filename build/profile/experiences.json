@@ -1,0 +1,31 @@
+{
+    "experiences": [
+        {
+            "title": "Programmer",
+            "subtitle": "OSIZ Technologies Pvt Ltd (Koinpark)",
+            "workType": "Full-time",
+            "workDescription": [
+        "Contributed to a cryptocurrency exchange platform by maintaining existing modules, developing new features, revamping the user interface, and enhancing backend data flow integration."
+      ],
+            "dateText": "Aug 2024-Jun 2025"
+        },
+        {
+            "title": "Associate Software Engineer",
+            "subtitle": "Techno Genesis Software Solutions Pvt Ltd",
+            "workType": "Remote",
+            "workDescription": [
+        "Developed and optimized user and admin portals with multiple modules, ensuring a seamless shopping experience and efficient backend management."
+      ],
+            "dateText": "May 2023 - Jul 2024"
+        },
+        {
+            "title": "Software Developer",
+            "subtitle": "Techno Genesis Software Solutions Pvt Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "The project involved maintaining user panels and admin panels with plain HTML, Javascript, CSS integrated the backend environment with PHP."
+            ],
+            "dateText": "Aug 2016 - Jun 2018"
+        }
+    ]
+}
