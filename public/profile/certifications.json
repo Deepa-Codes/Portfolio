@@ -1,0 +1,35 @@
+{
+    "certifications" : [
+       {
+            "image" : "images/certifications/certificate1.png",
+            "title": "The Frontend Developer (React) Certificate",
+            "bodyText": "Issued by HackerRank ",
+              "tags" : [ 
+                  "React JS",
+                    "JavaScript",
+                    "CSS3"
+            ]
+        },
+        {
+            "image" : "images/certifications/certificate2.png",
+            "title": "Career Essentials in GitHub Professional Certificate",
+            "bodyText": "Issued by LinkedIn Learning and GitHub ",
+              "tags" : [ 
+                  " GitHub Actions",
+                    "GitHub Project Management and Collaboration",
+                    "GitHub Copilot",
+                    "GitHub Code Search",
+                    "GitHub"
+            ]
+        },
+        {
+            "image" : "images/certifications/certificate3.png",
+            "title": "Certified AI Generalist",
+            "bodyText": "Issued by Outskill",
+               "tags" : [ "Generative AI","Prompt Engineering","AI Automation","AI Agents & Workflows","Multimodal AI","Applied Machine Learning",
+               "AI Use Case Design","AI for Business & Operations","Rapid Prototyping with AI","AI Project Execution"
+    ]
+        }
+           
+    ]
+}

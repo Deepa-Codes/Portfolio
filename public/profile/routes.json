@@ -21,6 +21,11 @@
             "headerTitle": "Experience"
         },
         {
+            "component": "Certifications",
+            "path": "/certifications",
+            "headerTitle": "Certifications"
+        },
+        {
             "component": "Projects",
             "path": "/projects",
             "headerTitle": "Projects"

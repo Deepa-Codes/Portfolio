@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
-import ProjectCard from './projects/ProjectCard';
+// import CertificationCard from './projects/ProjectCard';
+import CertificationCard from './certifications/CertificationsCard';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
@@ -17,21 +18,21 @@ const styles = {
   },
 };
 
-const Projects = (props) => {
+const Certifications = (props) => {
   // const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
   // const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.projects, {
+    fetch(endpoints.certifications, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  const numberOfItems = data ? data.projects?.length : 0;
+  const numberOfItems = data ? data.certifications?.length : 0;
   return (
     <>
       <Header title={header} />
@@ -40,23 +41,12 @@ const Projects = (props) => {
           <div className="section-content-container">
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
-                {data.projects?.slice(0, numberOfItems).map((project) => (
-                  <Fade key={project.title}>
-                    <ProjectCard project={project} />
+                {data.certifications?.slice(0, numberOfItems).map((certificate) => (
+                  <Fade key={certificate.title}>
+                    <CertificationCard certificate={certificate} />
                   </Fade>
                 ))}
               </Row>
-
-              {/* {!showMore
-                && (
-                <Button
-                  style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
-                >
-                  show more
-                </Button>
-                )} */}
             </Container>
           </div>
         ) : <FallbackSpinner /> }
@@ -64,8 +54,8 @@ const Projects = (props) => {
   );
 };
 
-Projects.propTypes = {
+Certifications.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Projects;
+export default Certifications;
